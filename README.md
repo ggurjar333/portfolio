@@ -1,8 +1,38 @@
-# Getting Started with Create React App
+# My Professional Portfolio - Data Engineer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+This portfolio is designed to showcase my work as a Data Engineer, with a strong proficiency in Python, JavaScript, and various data engineering technologies. It aims to reflect my capabilities, experiences, and achievements in the realm of data engineering.
 
-## Available Scripts
+## Skills
+Below are key skills that I bring to a data engineering role:
+
+* Data Pipeline Creation
+* ETL Development
+* Knowledge of Database Management Systems (both SQL and NoSQL)
+* Proficiency with Big Data technologies like Hadoop and Spark
+* Excellent Python and JavaScript programming skills
+* Data Warehouse design and modeling
+* Performance optimization of data systems
+* Proficiency with cloud platforms like AWS or Google Cloud
+
+## Technologies Used
+The following are examples of the technologies I've employed in my projects, including those showcased in this portfolio:
+
+* Python (Pandas, PySpark)
+* AWS (RDS, Redshift, S3, EC2, Lambda)
+* Hadoop/Spark
+* SQL and NoSQL databases
+* JavaScript (Node.JS)
+
+## Features
+The portfolio site includes the following sections:
+
+* My recent Projects demonstrating key skills and learning experiences
+* Detailed introduction to my Skills and Expertise areas
+* Downloadable Resume as PDF file
+* Contact form for direct communication
+
+## Available Scripts - Installation
 
 In the project directory, you can run:
 
