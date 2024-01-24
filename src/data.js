@@ -49,7 +49,7 @@ export const testimonials = [
         company: "Love of Sports LLC"
     },
     {
-        name: "Adam Hutchinson",
+        name: "Adam Hutchinson, Go To Market",
         image: "https://cannaspyglass.com/hs-fs/hubfs/adam2.jpg?width=800&height=800&name=adam2.jpg",
         quote: "Gaurav is an outstanding innovator - very talented technologist and communicator.",
         company: "CannaSpyGlass"
