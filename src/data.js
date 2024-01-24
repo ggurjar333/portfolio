@@ -5,22 +5,28 @@ export const projects = [
         subtitle: "Data Engineering",
         description:
             "This project had a specific limitation of 4000 API calls/month, which required careful planning and strategic data handling.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "https://simpleicons.org/icons/python.svg",
         link: "https://loveoffootball.io/",
     },
     {
         title: "LLM Developer | Data Engineer",
         subtitle: "Data Engineering | Full-stack Development",
-        description: "",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "This project had a specific requirements of building FastAPI backend, database deployed on MongoDB and LLM configuration and fullstack development using Python/FastAPI and React Framework - Javascript.",
+        image: "https://simpleicons.org/icons/javascript.svg",
+    },
+    {
+        title: "Data Engineer",
+        subtitle: "Data Engineering",
+        description: "I've designed and built over 300+ Python/SQL data pipelines, optimizing data delivery for various architectural layers, including Raw Buckets, Processed Buckets, Enrich Buckets, Database Ingestion, and API development. My work has significantly improved data relevancy, making it an invaluable asset to the project's success.",
+        image:"https://simpleicons.org/icons/amazonaws.svg",
+        link: "https://cannaspyglass.com/"
     },
     {
         title: "Data Scientist",
-        subtitle: "",
-        description:
-            "created efficient Java Spring Boot API for Bioinformatics data.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        link: "https://reedbarger.com",
+        subtitle: "Java Spring API Developer | Associate Data Scientist",
+        description: " I developed a Java Spring API for statistical models that played a vital role in assisting more than 2 million Americans. This impactful work reinforced my commitment to data science and its real-world applications.",
+        image: "https://simpleicons.org/icons/rust.svg",
+        link: "https://squared.ai/",
     },
     {
         title: "DevChat",
