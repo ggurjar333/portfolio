@@ -10,12 +10,10 @@ export default function About() {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Gaurav.
                         <br className="hidden lg:inline-block" /> I love to build amazing
-                        apps.
+                        apps and data pipelines.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                        Laborum, voluptas natus?
+                        With a proficiency in Python, JavaScript, and various data engineering technologies. I aim to reflect my capabilities, experiences, and achievements in the realm of data engineering.
                     </p>
                     <div className="flex justify-center">
                         <a
@@ -32,9 +30,9 @@ export default function About() {
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
-                        className="object-cover object-center rounded"
-                        alt="hero"
-                        src="./coding.svg"
+                        className="object-cover object-center border border-black"
+                        src="https://github-readme-stats.vercel.app/api?username=ggurjar333&show_icons=true&theme=tokyonight"
+                        alt="My GitHub stats"
                     />
                 </div>
             </div>

@@ -14,9 +14,7 @@ export default function Skills() {
                         Skills &amp; Technologies
                     </h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-                        ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-                        possimus est.
+                        My expertise includes designing and implementing robust data pipelines, ensuring seamless data flow and processing. I follow best coding practices to write clean, maintainable code that adheres to industry standards. I have 6+ years of professionally working experience in data industry.
                     </p>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
