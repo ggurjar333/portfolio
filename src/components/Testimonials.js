@@ -14,7 +14,6 @@ export default function Testimonials() {
         slidesToScroll: 1,
         swipe: true,
         touchMove: true,
-        arrows: true,
         autoplay:true,
         autoplaySpeed: 5000,
         pauseOnHover: true

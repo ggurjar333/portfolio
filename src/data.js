@@ -38,6 +38,42 @@ export const skills = [
     },
     {
         title: "Bachelors in Computer Applications",
+    },
+    {
+        title: "Python"
+    },
+    {
+        title: "Javascript"
+    },
+    {
+        title: "Design Patterns"
+    },
+    {
+        title: "GitHub"
+    },
+    {
+        title: "BigQuery"
+    },
+    {
+        title: "NoSQL"
+    },
+    {
+        title: "SQL"
+    },
+    {
+        title: "Apache Spark"
+    },
+    {
+        title: "Apache Kafka"
+    },
+    {
+        title: "Azure Data Engineering"
+    },
+    {
+        title: "AWS Data Engineering"
+    },
+    {
+        title: "GCP Data Engineering"
     }
 ];
 
