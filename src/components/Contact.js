@@ -36,9 +36,6 @@ export default function Contact() {
                         height="100%"
                         title="map"
                         className="absolute inset-0"
-                        frameBorder={0}
-                        marginHeight={0}
-                        marginWidth={0}
                         style={{ filter: "opacity(0.7)" }}
                         src="https://www.google.com/maps/embed/v1/place?q=Barsha+Heights+-+Dubai+-+United+Arab+Emirates&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
@@ -72,11 +69,10 @@ export default function Contact() {
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                     <input type="hidden" name="form-name" value="contact" />
                     <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-                        Hire Me
+                        Direct Contract Proposals
                     </h2>
                     <p className="leading-relaxed mb-5">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                        suscipit officia aspernatur veritatis. Asperiores, aliquid?
+                        Create simple contracts. You don’t need an Upwork account. You'll have Escrow protection for both parties including disputes. Low to no fees for you.
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-400">

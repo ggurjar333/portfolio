@@ -8,12 +8,10 @@ export default function About() {
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-                        Hi, I'm Gaurav.
-                        <br className="hidden lg:inline-block" /> I love to build amazing
-                        apps and data pipelines.
+                        Gaurav Gurjar is a Data Consultant. He lives in Dubai.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        With a proficiency in Python, JavaScript, and various data engineering technologies. I aim to reflect my capabilities, experiences, and achievements in the realm of data engineering.
+                        I love to build amazing apps and data pipelines. I aim to reflect my capabilities, experiences, and achievements in the realm of full-stack data engineering.
                     </p>
                     <div className="flex justify-center">
                         <a

@@ -11,13 +11,13 @@ export default function Projects() {
                 <div className="flex flex-col w-full mb-20">
                     <CodeIcon className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        Code I've Craft
+                        Past Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Let the code speak for itself - a testament to my dedication to becoming the best open-source coder with expertise in Python/Javascript.
+                        A testament to my dedication to becoming a better tech consultant with clean coding mindset day by day.
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap -m-8">
                     {projects.map((project) => (
                         <a
                             href={project.link}
@@ -26,7 +26,7 @@ export default function Projects() {
                             <div className="flex relative">
                                 <img
                                     alt="gallery"
-                                    className="absolute inset-0 object-cover object-center w-[200px] h-[200px]"
+                                    className="absolute inset-0 object-cover object-center w-[450px] h-[250px]"
                                     src={project.image}
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
