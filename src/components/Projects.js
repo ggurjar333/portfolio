@@ -3,6 +3,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data.js";
+import { Link } from 'react-router-dom';
 
 export default function Projects() {
     return (
@@ -11,7 +12,7 @@ export default function Projects() {
                 <div className="flex flex-col w-full mb-20">
                     <CodeIcon className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        Past Projects
+                        Recent Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         A testament to my dedication to becoming a better tech consultant with clean coding mindset day by day.
@@ -19,8 +20,8 @@ export default function Projects() {
                 </div>
                 <div className="flex flex-wrap -m-8">
                     {projects.map((project) => (
-                        <a
-                            href={project.link}
+                        <Link
+                            to={`/blog/${project.id}`}
                             key={project.image}
                             className="sm:w-1/2 w-100 p-4">
                             <div className="flex relative">
@@ -29,7 +30,7 @@ export default function Projects() {
                                     className="absolute inset-0 object-cover object-center w-[450px] h-[250px]"
                                     src={project.image}
                                 />
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                <div className="px-8 py-10 relative w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                                         {project.subtitle}
                                     </h2>
@@ -39,7 +40,7 @@ export default function Projects() {
                                     <p className="leading-relaxed">{project.description}</p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     ))}
                 </div>
             </div>

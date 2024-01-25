@@ -23,10 +23,10 @@ export default function Testimonials() {
             <div className="flex flex-col w-full mb-20">
                 <ChatIcon className="mx-auto inline-block w-10 mb-4"/>
                 <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                    My Happy Contractual Employers
+                    Testimonials
                 </h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    With an honest feedback to my work.
+                    People I can talk to anytime
                 </p>
             </div>
             <Slider {...settings}>

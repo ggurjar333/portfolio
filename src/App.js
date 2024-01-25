@@ -10,16 +10,27 @@ import './index.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Blog from './components/Blog';
 
 export default function App() {
     return (
-        <main className="text-gray-400 bg-gray-900 body-font">
-            <Navbar/>
-            <About/>
-            <Projects/>
-            <Skills/>
-            <Testimonials/>
-            <Contact/>
-        </main>
+        <Router>
+            <main className='text-gray-400 bg-gray-900 body-font'>
+                <Routes>
+                    <Route path='/' element={
+                        <>
+                            <Navbar />
+                            <About />
+                            <Projects />
+                            <Testimonials />
+                            <Skills />
+                            <Contact />
+                        </>
+                    }/>
+                    <Route path='/blog/:id' element={<Blog />} />
+                </Routes>
+            </main>
+        </Router>
     );
 }

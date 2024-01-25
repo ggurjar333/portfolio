@@ -7,13 +7,16 @@ export const projects = [
             "This project had a specific limitation of 4000 API calls/month, which required careful planning and strategic data handling.",
         image: "https://www.logo.wine/a/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.svg",
         link: "https://loveoffootball.io/",
+        id: "nfl-sports-data-pipeline",
+        impact: "I ended up deploying a python package based ETL as part of my enthusiasm for the project. It eventually added immense value to the project's overall usability."
     },
     {
         title: "Data Engineer",
         subtitle: "Cannabis - Data Engineering",
         description: "I've designed and built over 300+ Python/SQL data pipelines, optimizing data delivery for various architectural layers, including Raw Buckets, Processed Buckets, Enrich Buckets, Database Ingestion, and API development. My work has significantly improved data relevancy, making it an invaluable asset to the project's success.",
         image:"https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg",
-        link: "https://cannaspyglass.com/"
+        link: "https://cannaspyglass.com/",
+        id: "cannaspyglass-data-pipeline"
     },
     {
         title: "Data Scientist",
@@ -21,6 +24,7 @@ export const projects = [
         description: " I developed a Java Spring API for statistical models that played a vital role in assisting more than 2 million Americans. This impactful work reinforced my commitment to data science and its real-world applications.",
         image: "https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg",
         link: "https://squared.ai/",
+        id: "covid19-risk-tools-data-pipeline"
     },
     {
         title: "Data Engineer",
@@ -29,6 +33,7 @@ export const projects = [
             "I developed OCR based data pipelines using Google Vision APIs, and GCP tools for a FinTech company focused on culling bank statements from various Singapore based Banks.",
         image: "https://www.logo.wine/a/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.svg",
         link: "https://powercred.io",
+        id: "3"
     }
 ];
 

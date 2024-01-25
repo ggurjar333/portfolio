@@ -1,6 +1,6 @@
 // src/components/Skills.js
 
-import { BadgeCheckIcon, BookOpenIcon } from "@heroicons/react/solid";
+import { BadgeCheckIcon, AcademicCapIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data.js";
 
@@ -9,7 +9,7 @@ export default function Skills() {
         <section id="skills">
             <div className="container px-5 py-10 mx-auto">
                 <div className="text-center mb-20">
-                    <BookOpenIcon className="w-10 inline-block mb-4" />
+                    <AcademicCapIcon className="w-10 inline-block mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
                          Education &amp; Skills Certification
                     </h1>
