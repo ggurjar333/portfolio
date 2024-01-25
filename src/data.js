@@ -8,15 +8,133 @@ export const projects = [
         image: "https://www.logo.wine/a/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.svg",
         link: "https://loveoffootball.io/",
         id: "nfl-sports-data-pipeline",
-        impact: "I ended up deploying a python package based ETL as part of my enthusiasm for the project. It eventually added immense value to the project's overall usability."
+        blog: {
+            description: "--company--description--",
+            challenge: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
+            },
+            solution: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
+            },
+            impact: "I ended up deploying a python package based ETL as part of my enthusiasm for the project. It eventually added immense value to the project's overall usability.",
+            details: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
+            },
+        },
     },
     {
         title: "Data Engineer",
-        subtitle: "Cannabis - Data Engineering",
-        description: "I've designed and built over 300+ Python/SQL data pipelines, optimizing data delivery for various architectural layers, including Raw Buckets, Processed Buckets, Enrich Buckets, Database Ingestion, and API development. My work has significantly improved data relevancy, making it an invaluable asset to the project's success.",
+        subtitle: "Cannabis - Data Consulting",
+        description: "CannaSpyglass is the leading provider of cannabis market data, offering B2B contact information and analytics to support informed business decisions. The platform features AI-powered industry news, pre-built and custom reports, an interactive map, and financial insights.",
         image:"https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg",
         link: "https://cannaspyglass.com/",
-        id: "cannaspyglass-data-pipeline"
+        id: "cannaspyglass-data-pipeline",
+        blog: {
+            title: "CannaSpyglass",
+            image: "https://cannaspyglass.com/hubfs/Asset%202.svg",
+            challenge: {
+                intro: "The project presented multifaceted challenges, each layer of the data pipeline requiring careful consideration. Navigating through Raw Buckets, Processed Buckets, Enrich Buckets, Database Ingestion, and API development demanded a keen understanding of data dynamics, scalability concerns, and the need for seamless integration. The challenge lay in ensuring that the pipelines not only functioned individually but harmonized to create a cohesive and efficient data delivery system.",
+                points: {
+                    point1: {
+                        title: "Point 1 title",
+                        description:"Point 1 description"
+                    },
+                    point2: {
+                        title: "Point 2 title",
+                        description:" Point 2 description"
+                    },
+                    point3: {
+                        title: "Point 3 title",
+                        description:" Point 3 description"
+                    },
+                },
+            },
+            solution: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "Raw Buckets",
+                        description:"The challenge at the raw data stage was handling a diverse influx of unprocessed information. The solution involved designing a scalable architecture capable of accommodating various data types. Implementation of robust validation processes ensured the integrity of the raw data, setting the stage for subsequent processing."
+                    },
+                    point2: {
+                        title: "Processed Buckets",
+                        description:"To address the challenge of transforming raw data into a structured format, optimization techniques were introduced. These streamlined processes significantly reduced processing times, enhancing the efficiency of the pipelines. The solution here lay in creating a modular processing framework that could adapt to evolving data requirements."
+                    },
+                    point3: {
+                        title: "Enrich Buckets",
+                        description:"Enriching data for relevance posed a unique challenge. The solution involved integrating tailored enrichment processes into the pipeline. This not only improved the quality of the data but also ensured its applicability for analytical purposes, setting the stage for impactful insights."
+                    },
+                    point4: {
+                        title: "Database Ingestion",
+                        description: "Seamless integration with databases demanded a meticulous approach. The solution included designing a reliable database ingestion layer that facilitated the smooth flow of data. This ensured data integrity and provided a foundation for effective storage and retrieval."
+                    },
+                    point5: {
+                        title: "API Development",
+                        description: "Real-time access to enriched data presented a final challenge. The solution was found in the development of APIs, empowering users with dynamic and immediate access. This not only enhanced user experience but also expanded the project's scope for integration with external applications."
+                    }
+                },
+            },
+            impact: "The development and optimization of data pipelines has become a cornerstone of CannaSpyGlass's success. As the leading provider of cannabis market data, the platform now leverages the accelerated data delivery, improved reliability, and enhanced accuracy at every stage. By overcoming challenges with innovative solutions, these pipelines position CannaSpyGlass as a beacon of excellence in the data engineering landscape, amplifying its ability to deliver B2B contact information, analytics, AI-powered industry news, pre-built and custom reports, an interactive map, and financial insights for informed business decisions. I've designed and built over 300+ Python/SQL data pipelines, optimizing data delivery for various architectural layers, including Raw Buckets, Processed Buckets, Enrich Buckets, Database Ingestion, and API development. My work has significantly improved data relevancy, making it an invaluable asset to the project's success.",
+            details: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
+            },
+        },
     },
     {
         title: "Data Scientist",
