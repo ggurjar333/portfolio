@@ -72,6 +72,7 @@ export const projects = [
         link: "https://cannaspyglass.com/",
         id: "cannaspyglass-data-pipeline",
         blog: {
+            type:"Client story",
             title: "CannaSpyglass",
             image: "https://cannaspyglass.com/hubfs/Asset%202.svg",
             challenge: {

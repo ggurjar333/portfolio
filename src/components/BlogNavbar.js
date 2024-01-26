@@ -1,5 +1,4 @@
 import React from 'react';
-// import {useNavigate} from 'react-router-dom';
 import {ArrowRightIcon} from "@heroicons/react/solid";
 
 export default function Navbar() {
@@ -32,17 +31,3 @@ export default function Navbar() {
         </header>
     );
 }
-// const BlogNavbar = ({ nextPostId, prevPostId }) => {
-//     // const navigate = useNavigate();
-//     return (
-//             <nav className="flex justify-between">
-//                 {prevPostId && (
-//                     <button className="btn-primary" onClick={() => navigate(`/blog/${prevPostId}`)}>Previous</button>
-//                 )}
-//                 {nextPostId && (
-//                     <button className="btn-primary" onClick={() => navigate(`/blog/${nextPostId}`)}>Next</button>
-//                 )}
-//             </nav>
-//     );
-// }
-// export default BlogNavbar;

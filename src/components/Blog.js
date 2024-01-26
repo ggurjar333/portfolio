@@ -2,29 +2,11 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { projects } from "../data.js";
 import BlogNavbar from "./BlogNavbar";
-
+import { SparklesIcon } from "@heroicons/react/solid";
+import BlogFooter from "./BlogFooter";
 export default function Blog() {
     const { id } = useParams();
 
-    // Find the current project index.
-    const postIndex = projects.findIndex(project => project.id === id);
-
-    // Initialize nextPostId and prevPostId
-    let nextPostId = null, prevPostId = null;
-
-    // If current project is found
-    if (postIndex !== -1) {
-
-        // If it is not the first, set previous project id.
-        if (postIndex > 0) {
-            prevPostId = projects[postIndex - 1].id;
-        }
-
-        // If it is not the last, set next project id.
-        if (postIndex < projects.length - 1) {
-            nextPostId = projects[postIndex + 1].id;
-        }
-    }
 
     const project = projects.find((project) => project.id === id);
 
@@ -34,12 +16,10 @@ export default function Blog() {
     return (
         <div>
             <BlogNavbar/>
-            {/*<div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12'>*/}
-            {/*    <div className="grid grid-col-3 gap-4"><AboutProject project={project}/></div>*/}
-            {/*</div>*/}
 
             <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12'>
                 <div className="col-span-2 space-y-4">
+                    <p className="text-white inline-flex font-bold text-xl"><SparklesIcon className="w-4 h-4 ml-1"/></p>{project.blog.type}
                     <img
                         className='w-1/2 mx-auto object-cover rounded-md bg-white p-3'
                         src={project.blog.image}
@@ -67,7 +47,9 @@ export default function Blog() {
                         <p>{project.blog.impact}</p>
                     </div>
                 </div>
-                <BlogNavbar prevPostId={prevPostId} nextPostId={nextPostId}/>
+                <br/>
+                <h2>Relevant Stories:</h2>
+                <BlogFooter/>
             </div>
         </div>
     );
