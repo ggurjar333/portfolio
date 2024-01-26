@@ -14,12 +14,12 @@ const BlogFooter = () => {
                     onClick={() => navigate(`/blog/${project.id}`)}
                 >
                     <img src={project.image} alt={project.subtitle} className="w-12 h-12 object-cover"/>
-                    <div>{project.subtitle}</div>
+                    {/* Here we are adding the 'font-bold', 'bg-white', and 'bg-opacity-50' classes to the subtitle */}
+                    <div className="text-black rounded font-bold bg-white bg-opacity-50">{project.subtitle}</div>
                     <div>{project.description}</div>
                 </button>
             ))}
         </div>
     );
 }
-
 export default BlogFooter;
