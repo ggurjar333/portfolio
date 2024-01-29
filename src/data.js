@@ -2,16 +2,19 @@
 export const projects = [
     {
         title: "Python Developer for ETL Automation and API Integration",
-        subtitle: "NFL Sports - Data Engineer",
+        subtitle: "Sports - Data Engineer",
         description:
-            "This project had a specific limitation of 4000 API calls/month, which required careful planning and strategic data handling.",
+            "Python Scripts to create data pipeline to database.",
         image: "https://www.logo.wine/a/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.svg",
         link: "https://loveoffootball.io/",
         id: "nfl-sports-data-pipeline",
         blog: {
-            description: "--company--description--",
+            title: "LoveofSportsLLC",
+            type: "Sport Analytics",
+            image: "https://loveoffootball.io/assets/screenshot-game-analysis.png",
+            description: "LoveofSportsLLC is a passionate sports community dedicated to bringing sports enthusiasts together. Our mission is to promote love of sports and provide a platform for fans to connect and share their passion. We are committed to providing high-quality content, organizing events, and fostering a sense of community among sports fans from all over the world.",
             challenge: {
-                intro: "",
+                intro: "This project had a specific limitation of 4000 API calls/month, which required careful planning and strategic data handling.",
                 points: {
                     point1: {
                         title: "",
