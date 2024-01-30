@@ -12,7 +12,9 @@ export const projects = [
             title: "LoveofSportsLLC",
             type: "Sport Analytics",
             image: "https://loveoffootball.io/assets/screenshot-game-analysis.png",
-            description: "LoveofSportsLLC is a passionate sports community dedicated to bringing sports enthusiasts together. Our mission is to promote love of sports and provide a platform for fans to connect and share their passion. We are committed to providing high-quality content, organizing events, and fostering a sense of community among sports fans from all over the world.",
+            description: "LoveofSportsLLC is a passionate sports community dedicated to bringing sports enthusiasts together. " +
+                "Our mission is to promote love of sports and provide a platform for fans to connect and share their passion. " +
+                "We are committed to providing high-quality content, organizing events, and fostering a sense of community among sports fans from all over the world.",
             challenge: {
                 intro: "This project had a specific limitation of 4000 API calls/month, which required careful planning and strategic data handling.",
                 points: {
@@ -82,16 +84,18 @@ export const projects = [
                 intro: "The project presented multifaceted challenges, each layer of the data pipeline requiring careful consideration. Navigating through Raw Buckets, Processed Buckets, Enrich Buckets, Database Ingestion, and API development demanded a keen understanding of data dynamics, scalability concerns, and the need for seamless integration. The challenge lay in ensuring that the pipelines not only functioned individually but harmonized to create a cohesive and efficient data delivery system.",
                 points: {
                     point1: {
-                        title: "Point 1 title",
-                        description:"Point 1 description"
+                        title: "Data Collection from US Government websites and ecommerce websites focused on Cannabis products",
+                        description:"While collecting data from US Government and private ecommerce sites I was facing CAPTCHA issues and IP blockers for recurring data retrievals on my local development environment."
                     },
                     point2: {
-                        title: "Point 2 title",
-                        description:" Point 2 description"
+                        title: "Unstable extract data operation pipelines on AWS EC2",
+                        description:"I had collected PDFs, JSON files from websites at Raw Data Bucket on AWS S3. " +
+                            "Most of the time the PDF data layout remained the same but anytime these PDFs changed over time by the US Medical Marijuana Authority. " +
+                            "Eventually, due to this tabular data changes within PDFs the data culling process failed. "
                     },
                     point3: {
-                        title: "Point 3 title",
-                        description:" Point 3 description"
+                        title: "Data Transformation data failures",
+                        description:" Due to unprecedented changes at the source location at the US authority. Data transformation failure was natural."
                     },
                 },
             },
@@ -99,8 +103,10 @@ export const projects = [
                 intro: "",
                 points: {
                     point1: {
-                        title: "Raw Buckets",
-                        description:"The challenge at the raw data stage was handling a diverse influx of unprocessed information. The solution involved designing a scalable architecture capable of accommodating various data types. Implementation of robust validation processes ensured the integrity of the raw data, setting the stage for subsequent processing."
+                        title: "Raw Buckets:",
+                        description:"I was using camelot library, a very well tech rounded library to extract structured data based PDFs. I felt very confident due to its data processing quality even my senior team always amazed by the processing outputs. After some time, The US authority switched to a framework based APIs to deliver the same PDF data over Web Applications access. " +
+                            "I informed my team about it and given me a green flag to build the pipelines for this change as well. I used AWS Wrangler, Camelot, Pandas for this pipeline." +
+                            "This challenge at the raw data stage was handling a diverse influx of unprocessed information. The solution involved designing a scalable architecture capable of accommodating various data types. Implementation of robust validation processes ensured the integrity of the raw data, setting the stage for subsequent processing."
                     },
                     point2: {
                         title: "Processed Buckets",
@@ -111,12 +117,12 @@ export const projects = [
                         description:"Enriching data for relevance posed a unique challenge. The solution involved integrating tailored enrichment processes into the pipeline. This not only improved the quality of the data but also ensured its applicability for analytical purposes, setting the stage for impactful insights."
                     },
                     point4: {
-                        title: "Database Ingestion",
-                        description: "Seamless integration with databases demanded a meticulous approach. The solution included designing a reliable database ingestion layer that facilitated the smooth flow of data. This ensured data integrity and provided a foundation for effective storage and retrieval."
+                        title: "Database Ingestion:",
+                        description: "Data ingestion on AWS RDS databases for development, QA and Production environment. Seamless integration with databases demanded a meticulous approach. The solution included designing a reliable database ingestion layer that facilitated the smooth flow of data. This ensured data integrity and provided a foundation for effective storage and retrieval."
                     },
                     point5: {
-                        title: "API Development",
-                        description: "Real-time access to enriched data presented a final challenge. The solution was found in the development of APIs, empowering users with dynamic and immediate access. This not only enhanced user experience but also expanded the project's scope for integration with external applications."
+                        title: "API Development:",
+                        description: "Developed and exposed AWS lambda handlers APIs on top of AWS RDS based SQL views. Real-time access to enriched data presented a final challenge. The solution was found in the development of APIs, empowering users with dynamic and immediate access. This not only enhanced user experience but also expanded the project's scope for integration with external applications."
                     }
                 },
             },
@@ -125,16 +131,16 @@ export const projects = [
                 intro: "",
                 points: {
                     point1: {
-                        title: "",
-                        description:""
+                        title: "Accelerated Data Delivery:",
+                        description:"All data buckets were on AWS S3, exposed data APIs on AWS Lambda. Quick and reliable access to the business team, The optimized data pipelines have significantly accelerated the delivered of cannabis market data."
                     },
                     point2: {
-                        title: "",
-                        description:""
+                        title: "Enhanced Reliability",
+                        description:"The customers of CannaSpyGlass believes the market data are true and authentic. Users can trust in the consistency and accuracy of the provided B2B contact information, analytics, and other crucial data elements, establishing the platform as a reliable resource in the cannabis industry."
                     },
                     point3: {
-                        title: "",
-                        description:""
+                        title: "Improved Accuracy at Every Stage",
+                        description:"The meticulous design and implementation of over 300 Python/SQL data pipelines have led to a marked improvement in data accuracy at every stage. From Raw Buckets to API development, the project now boasts a higher level of precision, ensuring the delivery of trustworthy and impactful insights for businesses navigating the cannabis market landscape."
                     },
                 },
             },
