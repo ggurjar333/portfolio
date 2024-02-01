@@ -100,7 +100,7 @@ export const projects = [
                 },
             },
             solution: {
-                intro: "",
+                intro: "Efficient AWS Glue data pipelines using S3 Data Layers and BrightData Proxy servers",
                 points: {
                     point1: {
                         title: "Raw Buckets:",
@@ -117,11 +117,11 @@ export const projects = [
                         description:"Enriching data for relevance posed a unique challenge. The solution involved integrating tailored enrichment processes into the pipeline. This not only improved the quality of the data but also ensured its applicability for analytical purposes, setting the stage for impactful insights."
                     },
                     point4: {
-                        title: "Database Ingestion:",
+                        title: "Database Ingestion",
                         description: "Data ingestion on AWS RDS databases for development, QA and Production environment. Seamless integration with databases demanded a meticulous approach. The solution included designing a reliable database ingestion layer that facilitated the smooth flow of data. This ensured data integrity and provided a foundation for effective storage and retrieval."
                     },
                     point5: {
-                        title: "API Development:",
+                        title: "API Development",
                         description: "Developed and exposed AWS lambda handlers APIs on top of AWS RDS based SQL views. Real-time access to enriched data presented a final challenge. The solution was found in the development of APIs, empowering users with dynamic and immediate access. This not only enhanced user experience but also expanded the project's scope for integration with external applications."
                     }
                 },
@@ -131,7 +131,7 @@ export const projects = [
                 intro: "",
                 points: {
                     point1: {
-                        title: "Accelerated Data Delivery:",
+                        title: "Accelerated Data Delivery",
                         description:"All data buckets were on AWS S3, exposed data APIs on AWS Lambda. Quick and reliable access to the business team, The optimized data pipelines have significantly accelerated the delivered of cannabis market data."
                     },
                     point2: {
