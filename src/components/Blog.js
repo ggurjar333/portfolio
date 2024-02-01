@@ -40,6 +40,12 @@ export default function Blog() {
                         <p>{project.blog.challenge.points.point1.title}</p>
                         <p>{project.blog.challenge.points.point1.description}</p>
                         <br/>
+                        <p>{project.blog.challenge.points.point2.title}</p>
+                        <p>{project.blog.challenge.points.point2.description}</p>
+                        <br/>
+                        <p>{project.blog.challenge.points.point3.title}</p>
+                        <p>{project.blog.challenge.points.point3.description}</p>
+                        <br/>
                         <h1>Solution:</h1>
                         <p>{project.blog.solution.intro}</p>
                         <br/>
