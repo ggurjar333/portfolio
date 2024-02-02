@@ -1,7 +1,7 @@
 // src/data.js
 export const projects = [
     {
-        title: "Python Developer for ETL Automation and API Integration",
+        title: "ETL Automation and API Integration",
         subtitle: "Data Engineer",
         description:
             "Python Scripts to create data pipeline to database.",
