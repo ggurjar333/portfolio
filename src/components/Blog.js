@@ -20,8 +20,8 @@ export default function Blog() {
 
             <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-white'>
                 <div className="col-span-2 space-y-4">
-                    <p className="text-white inline-flex font-bold text-xl"><SparklesIcon className="w-4 h-4 ml-1"/>
-                    </p>{project.blog.type}
+                    {/*<p className="text-white inline-flex font-bold text-xl"><SparklesIcon className="w-4 h-4 ml-1"/>*/}
+                    {/*</p>{project.blog.type}*/}
                     <img
                         className='w-1/2 mx-auto object-cover rounded-md bg-white p-3'
                         src={project.blog.image}
@@ -80,8 +80,8 @@ export default function Blog() {
                 </div>
                 <br/>
                 <br/>
-                <h2 className="text-4xl font-semibold">Client Stories</h2>
-                <BlogFooter/>
+                {/*<h2 className="text-4xl font-semibold">Client Stories</h2>*/}
+                {/*<BlogFooter/>*/}
             </div>
             <Footer />
         </div>

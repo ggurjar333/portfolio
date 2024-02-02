@@ -2,11 +2,12 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer style={{backgroundColor: "#F8F8F8", textAlign: "center", padding: "20px 0"}}>
-      <p style={{margin: "0 auto", padding: "0 10px", maxWidth: "800px"}}>
-        &copy; {new Date().getFullYear()} Gaurav Gurjar. All rights reserved.
-      </p>
-    </footer>
+      <footer className="bg-white-200 text-center py-4">
+          <img className="m-0 mx-auto w-10 h-10 mix-blend-color" src="https://www.svgrepo.com/show/220913/burj-khalifa-dubai.svg"></img>
+          <p className="m-0 mx-auto p-2 max-w-lg">
+              Made in React
+          </p>
+      </footer>
   );
 }
 

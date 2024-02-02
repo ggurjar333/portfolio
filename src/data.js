@@ -104,7 +104,7 @@ export const projects = [
                 intro: "Efficient AWS Glue data pipelines using S3 Data Layers and BrightData Proxy servers",
                 points: {
                     point1: {
-                        title: "Raw Buckets:",
+                        title: "Raw Buckets",
                         description:"I was using camelot library, a very well tech rounded library to extract structured data based PDFs. I felt very confident due to its data processing quality even my senior team always amazed by the processing outputs. After some time, The US authority switched to a framework based APIs to deliver the same PDF data over Web Applications access. " +
                             "I informed my team about it and given me a green flag to build the pipelines for this change as well. I used AWS Wrangler, Camelot, Pandas for this pipeline." +
                             "This challenge at the raw data stage was handling a diverse influx of unprocessed information. The solution involved designing a scalable architecture capable of accommodating various data types. Implementation of robust validation processes ensured the integrity of the raw data, setting the stage for subsequent processing."
