@@ -2,7 +2,7 @@
 export const projects = [
     {
         title: "Python Developer for ETL Automation and API Integration",
-        subtitle: "Sports - Data Engineer",
+        subtitle: "Data Engineer",
         description:
             "Python Scripts to create data pipeline to database.",
         image: "https://www.logo.wine/a/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.svg",
@@ -70,15 +70,16 @@ export const projects = [
         },
     },
     {
-        title: "Data Engineer",
-        subtitle: "Cannabis - Data Consulting",
-        description: "CannaSpyglass is the leading provider of cannabis market data, offering B2B contact information and analytics to support informed business decisions. The platform features AI-powered industry news, pre-built and custom reports, an interactive map, and financial insights.",
+        title: "structured/unstructured data",
+        subtitle: "Data Engineer",
+        description: "ETL of cannabis market data, contact information, industry news, building custom reports, and financial insights.",
         image:"https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg",
         link: "https://cannaspyglass.com/",
         id: "cannaspyglass-data-pipeline",
         blog: {
             type:"Client story",
             title: "CannaSpyglass",
+            company: "The most credible source for cannabis market data & analytics.",
             image: "https://cannaspyglass.com/hubfs/Asset%202.svg",
             challenge: {
                 intro: "The project presented multifaceted challenges, each layer of the data pipeline requiring careful consideration. Navigating through Raw Buckets, Processed Buckets, Enrich Buckets, Database Ingestion, and API development demanded a keen understanding of data dynamics, scalability concerns, and the need for seamless integration. The challenge lay in ensuring that the pipelines not only functioned individually but harmonized to create a cohesive and efficient data delivery system.",
@@ -147,19 +148,19 @@ export const projects = [
         },
     },
     {
-        title: "Data Scientist",
-        subtitle: "Java Spring API Developer | Associate Data Scientist",
-        description: " I developed a Java Spring API for statistical models that played a vital role in assisting more than 2 million Americans. This impactful work reinforced my commitment to data science and its real-world applications.",
+        title: "Java Spring Boot for ETL",
+        subtitle: "API Dev | Associate DS",
+        description: "AWS ETL to support statistical models that helped assisting more than 2M+ COVID-19 patients",
         image: "https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg",
         link: "https://squared.ai/",
         id: "covid19-risk-tools-data-pipeline"
     },
     {
-        title: "Data Engineer",
-        subtitle: "FinTech - Data Engineering",
+        title: "Data Project Management",
+        subtitle: "Assistant PM",
         description:
-            "I developed OCR based data pipelines using Google Vision APIs, and GCP tools for a FinTech company focused on culling bank statements from various Singapore based Banks.",
-        image: "https://www.logo.wine/a/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.svg",
+            "data staging, business process management, data processing, data reviewing for litigation data compliance",
+        image: "",
         link: "https://powercred.io",
         id: "3"
     }
@@ -173,40 +174,16 @@ export const skills = [
         title: "Bachelors in Computer Applications",
     },
     {
-        title: "Python"
-    },
-    {
-        title: "Javascript"
+        title: "Application Development"
     },
     {
         title: "Design Patterns"
     },
     {
-        title: "GitHub"
+        title: "Continuous Integration/Development"
     },
     {
-        title: "BigQuery"
-    },
-    {
-        title: "NoSQL"
-    },
-    {
-        title: "SQL"
-    },
-    {
-        title: "Apache Spark"
-    },
-    {
-        title: "Apache Kafka"
-    },
-    {
-        title: "Azure Data Engineering"
-    },
-    {
-        title: "AWS Data Engineering"
-    },
-    {
-        title: "GCP Data Engineering"
+        title: "Data Engineering"
     }
 ];
 

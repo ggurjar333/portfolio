@@ -24,13 +24,17 @@ export default function Projects() {
                             to={`/blog/${project.id}`}
                             key={project.image}
                             className="sm:w-1/2 w-100 p-4">
-                            <div className="flex relative">
-                                <img
-                                    alt="gallery"
-                                    className="absolute inset-0 object-cover object-center w-[450px] h-[250px]"
-                                    src={project.image}
-                                />
-                                <div className="px-8 py-10 relative w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                            <div className="flex relative mx-auto object-cover rounded-md border-red-100">
+                                {/*<span className="border-white-500">*/}
+                                {/*    <img*/}
+                                {/*        alt="gallery"*/}
+                                {/*        className="absolute inset-0 object-contain w-[250px] h-[250px]"*/}
+                                {/*        src={project.image}*/}
+                                {/*    />*/}
+                                {/*</span>*/}
+
+                                <div
+                                    className="px-8 py-10 relative w-full border-4 border-white-800 bg-gray-900">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                                         {project.subtitle}
                                     </h2>

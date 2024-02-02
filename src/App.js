@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Blog from './components/Blog';
+import Footer from "./components/Footer";
 
 export default function App() {
     return (
@@ -28,6 +29,7 @@ export default function App() {
                             <Skills />
                             {/*<Services></Services>*/}
                             <Contact />
+                            <Footer />
                         </>
                     }/>
                     <Route path='/blog/:id' element={<Blog />} />
