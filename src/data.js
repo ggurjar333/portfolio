@@ -4,7 +4,7 @@ export const projects = [
         title: "ETL Automation and API Integration",
         subtitle: "Data Engineer",
         description:
-            "Python Scripts to create data pipeline to database.",
+            "ETL package development of sports data streaming platform",
         image: "https://www.logo.wine/a/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.svg",
         link: "https://loveoffootball.io/",
         id: "nfl-sports-data-pipeline",
@@ -72,7 +72,7 @@ export const projects = [
     {
         title: "structured/unstructured data",
         subtitle: "Data Engineer",
-        description: "ETL of cannabis market data, contact information, industry news, building custom reports, and financial insights.",
+        description: "ETL of cannabis market data, contact information, industry news, building custom reports, and financial insights",
         image:"https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg",
         link: "https://cannaspyglass.com/",
         id: "cannaspyglass-data-pipeline",
