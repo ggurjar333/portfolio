@@ -3,18 +3,17 @@ export const projects = [
     {
         title: "ETL Automation and API Integration",
         subtitle: "Data Engineer",
-        description:
-            "ETL package development of sports data streaming platform",
-        image: "https://www.logo.wine/a/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.svg",
+        description: "ETL package development of sports data streaming platform",
+        image:"https://www.logo.wine/a/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.svg",
         link: "https://loveoffootball.io/",
         id: "nfl-sports-data-pipeline",
         blog: {
-            title: "LoveofSportsLLC",
-            type: "Sport Analytics",
-            image: "https://loveoffootball.io/assets/screenshot-game-analysis.png",
-            description: "LoveofSportsLLC is a passionate sports community dedicated to bringing sports enthusiasts together. " +
+            title:"Love of Sports LLC",
+            type:"Sport Analytics",
+            company: "Love of Sports LLC is a passionate sports community dedicated to bringing sports enthusiasts together. " +
                 "Our mission is to promote love of sports and provide a platform for fans to connect and share their passion. " +
                 "We are committed to providing high-quality content, organizing events, and fostering a sense of community among sports fans from all over the world.",
+            image: "https://loveoffootball.io/assets/logo.svg",
             challenge: {
                 intro: "This project had a specific limitation of 4000 API calls/month, which required careful planning and strategic data handling.",
                 points: {
@@ -47,6 +46,14 @@ export const projects = [
                         title: "",
                         description:""
                     },
+                    point4: {
+                        title: "",
+                        description:""
+                    },
+                    point5: {
+                        title: "",
+                        description:""
+                    }
                 },
             },
             impact: "I ended up deploying a python package based ETL as part of my enthusiasm for the project. It eventually added immense value to the project's overall usability.",
@@ -73,14 +80,14 @@ export const projects = [
         title: "structured/unstructured data",
         subtitle: "Data Engineer",
         description: "ETL of cannabis market data, contact information, industry news, building custom reports, and financial insights",
-        image:"https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg",
+        image:"https://cannaspyglass.com/hubfs/Asset%202.svg",
         link: "https://cannaspyglass.com/",
         id: "cannaspyglass-data-pipeline",
         blog: {
             type:"Client story",
             title: "CannaSpyglass",
             company: "The most credible source for cannabis market data & analytics.",
-            image: "https://cannaspyglass.com/hubfs/Asset%202.svg",
+            image: "https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg",
             challenge: {
                 intro: "The project presented multifaceted challenges, each layer of the data pipeline requiring careful consideration. Navigating through Raw Buckets, Processed Buckets, Enrich Buckets, Database Ingestion, and API development demanded a keen understanding of data dynamics, scalability concerns, and the need for seamless integration. The challenge lay in ensuring that the pipelines not only functioned individually but harmonized to create a cohesive and efficient data delivery system.",
                 points: {
@@ -149,21 +156,226 @@ export const projects = [
     },
     {
         title: "Java Spring Boot for ETL",
-        subtitle: "API Dev | Associate DS",
+        subtitle: "Associate Data Scientist",
         description: "AWS ETL to support statistical models that helped assisting more than 2M+ COVID-19 patients",
-        image: "https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg",
+        image:"https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg",
         link: "https://squared.ai/",
-        id: "covid19-risk-tools-data-pipeline"
+        id: "covid19-risk-tools-data-pipeline",
+        blog: {
+            type:"Client story",
+            title: "AI Squared Inc.",
+            company: "",
+            image: "https://squared.ai/wp-content/uploads/2023/03/ai.png",
+            challenge: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
+            },
+            solution: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                    point4: {
+                        title: "",
+                        description:""
+                    },
+                    point5: {
+                        title: "",
+                        description:""
+                    }
+                },
+            },
+            impact: "",
+            details: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
+            },
+        },
     },
     {
-        title: "Data Project Management",
+        title: "Project Management",
         subtitle: "Assistant PM",
-        description:
-            "data staging, business process management, data processing, data reviewing for litigation data compliance",
-        image: "",
-        link: "https://powercred.io",
-        id: "3"
-    }
+        description: "data staging, communicating US senior managers/lawyers to understand business processes, managing 5 TB+ data processing workflows with team, and data dashboard reviewing for US litigation data compliance",
+        image:"",
+        link: "https://www.casepoint.com/",
+        id: "casepoint-project-management-ediscovery-data",
+        blog: {
+            type:"",
+            title: "",
+            company: "",
+            image: "https://www.casepoint.com/wp-content/uploads/2023/03/Casepoint-Legal-Hold-Press-Release.svg",
+            challenge: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
+            },
+            solution: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                    point4: {
+                        title: "",
+                        description:""
+                    },
+                    point5: {
+                        title: "",
+                        description:""
+                    }
+                },
+            },
+            impact: "",
+            details: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
+            },
+        },
+    },
+    // {
+    //     title: "",
+    //     subtitle: "",
+    //     description: "",
+    //     image:"",
+    //     link: "",
+    //     id: "",
+    //     blog: {
+    //         type:"",
+    //         title: "",
+    //         company: "",
+    //         image: "",
+    //         challenge: {
+    //             intro: "",
+    //             points: {
+    //                 point1: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //                 point2: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //                 point3: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //             },
+    //         },
+    //         solution: {
+    //             intro: "",
+    //             points: {
+    //                 point1: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //                 point2: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //                 point3: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //                 point4: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //                 point5: {
+    //                     title: "",
+    //                     description:""
+    //                 }
+    //             },
+    //         },
+    //         impact: "",
+    //         details: {
+    //             intro: "",
+    //             points: {
+    //                 point1: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //                 point2: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //                 point3: {
+    //                     title: "",
+    //                     description:""
+    //                 },
+    //             },
+    //         },
+    //     },
+    // }
 ];
 
 export const skills = [
@@ -190,7 +402,7 @@ export const skills = [
 export const testimonials = [
     {
         name: "John Bonnett, CEO",
-        image: "https://loveoffootball.io/assets/logo.svg",
+        image: "https://avatars.githubusercontent.com/u/141473057?v=4",
         quote: "Working with Gaurav has been an absolute pleasure. From the moment we began our project, it was clear that Gaurav possesses a remarkable talent for comprehending complex requirements and swiftly suggesting enhancements that greatly improved our project's efficiency. Gaurav's expertise in Python scripting, data manipulation, and database management is truly impressive. He not only delivered on the project's objectives but also went above and beyond our expectations. What truly stood out was his initiative to develop a complete Python package to streamline processes—a feature that wasn't initially part of our requirements but added immense value to the project's overall usability. https://pypi.org/project/sportradar-unofficial/ Having worked in the IT field for over seven years, I've collaborated with various professionals, and I can confidently say that Gaurav ranks among my favorite freelancers. His professionalism, expertise, and commitment to delivering exceptional results make him a valuable asset to any project. I look forward to the opportunity to work with Gaurav again in the future.",
         company: "Love of Sports LLC"
     },
@@ -211,5 +423,17 @@ export const testimonials = [
         image: "https://emse.engineering.gwu.edu/sites/g/files/zaxdzs5021/files/image/Headshot_Wale_20211206_4final.jpg",
         quote: "I have worked with Gaurav for close to a year and he is a very well rounded, skilled, and innovative data scientist. He has helped me in the development of statistical methods, backend server infrastructure, and data science tasks. Gaurav is not only a great developer but also a great communicator. He has always been very prompt, responsive, and completes tasks on time. He goes above and beyond to ensure that the customer requirements and needs are met. He is such a valuable colleague and I recommend him to anyone seeking expert level data science services or working to develop statistical methods for data science models. He has been a pleasure to work with!",
         company: "AI Squared Inc."
-    }
+    },
+    {
+        name: "Ivette Basterrechea, Director, Client Services",
+        image: "",
+        quote: "Gaurav is a thoughtful person with a very creative mind. He is intellectually curious and looks for efficient solutions to any problems. I enjoyed my time working with him and appreciate the collegial relationship we developed. I have great faith that he will achieve success in any career path he pursues.",
+        company: "Casepoint LLC"
+    },
+    {
+        name: "John Bassey, Data Analyst",
+        image: "",
+        quote: "I had a pleasure of working and collaborating with Gaurav on a cross functional data engineering project. His expertise and excellent project management skills were top notch. As a team member he always brought a positive energy and a can-do attitude. He was very quick to lend a helping hand to support anyone when needed",
+        company: "Time Doctor"
+    },
 ];
