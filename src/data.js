@@ -1,10 +1,10 @@
 // src/data.js
 export const projects = [
     {
-        title: "ETL Automation and API Integration",
+        title: "Azure",
         subtitle: "Data Engineer",
-        description: "ETL package development of sports data streaming platform",
-        image:"https://www.logo.wine/a/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.svg",
+        description: "ETL of sports data streaming platforms",
+        image:"https://loveoffootball.io/assets/logo.svg",
         link: "https://loveoffootball.io/",
         id: "nfl-sports-data-pipeline",
         blog: {
@@ -13,7 +13,7 @@ export const projects = [
             company: "Love of Sports LLC is a passionate sports community dedicated to bringing sports enthusiasts together. " +
                 "Our mission is to promote love of sports and provide a platform for fans to connect and share their passion. " +
                 "We are committed to providing high-quality content, organizing events, and fostering a sense of community among sports fans from all over the world.",
-            image: "https://loveoffootball.io/assets/logo.svg",
+            image: "https://www.logo.wine/a/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.svg",
             challenge: {
                 intro: "This project had a specific limitation of 4000 API calls/month, which required careful planning and strategic data handling.",
                 points: {
@@ -77,7 +77,7 @@ export const projects = [
         },
     },
     {
-        title: "structured/unstructured data",
+        title: "AWS and GCP",
         subtitle: "Data Engineer",
         description: "ETL of cannabis market data, contact information, industry news, building custom reports, and financial insights",
         image:"https://cannaspyglass.com/hubfs/Asset%202.svg",
@@ -155,7 +155,7 @@ export const projects = [
         },
     },
     {
-        title: "Java Spring Boot for ETL",
+        title: "AWS",
         subtitle: "Associate Data Scientist",
         description: "AWS ETL to support statistical models that helped assisting more than 2M+ COVID-19 patients",
         image:"https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg",
@@ -165,7 +165,7 @@ export const projects = [
             type:"Client story",
             title: "AI Squared Inc.",
             company: "",
-            image: "https://squared.ai/wp-content/uploads/2023/03/ai.png",
+            image: "https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg",
             challenge: {
                 intro: "",
                 points: {
@@ -229,7 +229,7 @@ export const projects = [
         },
     },
     {
-        title: "Project Management",
+        title: "On-Premise",
         subtitle: "Assistant PM",
         description: "data staging, communicating US senior managers/lawyers to understand business processes, managing 5 TB+ data processing workflows with team, and data dashboard reviewing for US litigation data compliance",
         image:"",
