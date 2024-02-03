@@ -18,18 +18,18 @@ export default function About() {
                             Work With Me
                         </a>
                         <a href="#projects" className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg ...">
-                            See My Past Work
+                            Recent Projects
                         </a>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
-                        className="object-cover object-center border border-black"
+                        className="object-cover object-center"
                         src="https://raw.githubusercontent.com/ggurjar333/github-stats/master/generated/overview.svg#gh-light-mode-only"
                         alt="My GitHub stats"
                     />
                     <img
-                        className="object-cover object-center border border-black"
+                        className="object-cover object-center"
                         src="https://raw.githubusercontent.com/ggurjar333/github-stats/master/generated/languages.svg#gh-light-mode-only"
                         alt="My GitHub stats"
                     />

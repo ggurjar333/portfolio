@@ -19,7 +19,7 @@ export default function Blog() {
                     {/*<p className="text-white inline-flex font-bold text-xl"><SparklesIcon className="w-4 h-4 ml-1"/>*/}
                     {/*</p>{project.blog.type}*/}
                     <img
-                        className='w-1/2 mx-auto object-cover rounded-md bg-white p-3'
+                        className='w-1/2 mx-auto object-cover rounded-md p-3'
                         src={project.blog.image}
                         alt={project.title}>
                     </img>
