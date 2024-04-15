@@ -1,44 +1,81 @@
 // src/data.js
 export const projects = [
     {
-        title: "Next Gen Infrastructure",
-        subtitle: "Meta",
-        description: "How do they fix problems?",
-        image:"https://en.m.wikipedia.org/wihttps://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svgki/File:Meta_Platforms_Inc._logo.svg",
-        link: "https://about.fb.com/news/2024/04/introducing-our-next-generation-infrastructure-for-ai/",
-        id: "meta-next-gen-infrastructure",
+        title: "Azure",
+        subtitle: "Data Engineer",
+        description: "ETL of sports data streaming platforms",
+        image:"https://loveoffootball.io/assets/logo.svg",
+        link: "https://loveoffootball.io/",
+        id: "nfl-sports-data-pipeline",
         blog: {
-            title:"MTIA",
-            type:"Custom GPUs",
-            company: "Meta is running a passionate community dedicated to bringing AI enthusiasts together. ",
-            image: "https://about.fb.com/wp-content/uploads/2024/04/02_chips-architecture.gif?w=960&resize=960%2C836",
+            title:"Love of Sports LLC",
+            type:"Sport Analytics",
+            company: "Love of Sports LLC is a passionate sports community dedicated to bringing sports enthusiasts together. " +
+                "Our mission is to promote love of sports and provide a platform for fans to connect and share their passion. " +
+                "We are committed to providing high-quality content, organizing events, and fostering a sense of community among sports fans from all over the world.",
+            image: "https://www.logo.wine/a/logo/Microsoft_Azure/Microsoft_Azure-Logo.wine.svg",
             challenge: {
-                intro: "Meta is running a passionate community dedicated to bringing AI enthusiasts together.",
-                title: "MTIA Chips",
-                description:"Running workloads on GPUs were not better solution for META. " + 
-                "They are committed to providing high-quality models, organizing events, and fostering a sense of community among AI fans from all over the world. Meta has been putting a lot of heavy lifting work in scratching new AI algorithms and Llama models. They have a specific needs that requires efficiency at scale. As you already know whenever you " +
-                "feel low response time you eventually get frustrated and try to look for your solution. That's what the company did. "
+                intro: "This project had a specific limitation of 4000 API calls/month, which required careful planning and strategic data handling.",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                },
             },
             solution: {
-                intro: "Please close this tab if you want to know how much Meta has invested in Silicon business these days.",
-                title: "AI Inference Accelerator",
-                description:"Meta recently came up with their cutting edge next generation infrastructure called 1st generation AI inference accelerator. " +
-                "Let's call it in-house problem solver. Meta has been providing variety of apps and technologies and solving problems across them. " +
-                "There would be no wonder if they say we wanted to learn more by building deep learning recommendation models. "
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
+                    point4: {
+                        title: "",
+                        description:""
+                    },
+                    point5: {
+                        title: "",
+                        description:""
+                    }
+                },
             },
-            impact: {
-                intro: "Do they have a domain-specific knowledge? ",
-                title: "https://www.opencompute.org/documents/ocp-yosemite-v3-platform-design-specification-1v16-pdf",
-                description:"I won't go into the MTIA chip specifications but I can provide server source what these accelerators uses now. " +
-                "It seems like they just want to provide best AI experiences around the world. Multiple accelerators ran in parallel. Meta can go for custom fullstack development programs to slaughter those workload bugs. " +
-                "They would go for balanced nature of compute and memory bandwidth area. " +
-                "That's how I have been advising to my tribe. "+ 
-                "Overall, we want efficiency at relatively cheaper cost and get the most of our recommendation models. " +
-                "This is one step further to Gen AI. Controlling the whole stack for greater efficiency. " +
-                "PyTorch, Silicon, and recommendation models. That's what it takes to provide co-designed full stack solution. "       
+            impact: "I ended up deploying a python package based ETL as part of my enthusiasm for the project. It eventually added immense value to the project's overall usability.",
+            details: {
+                intro: "",
+                points: {
+                    point1: {
+                        title: "",
+                        description:""
+                    },
+                    point2: {
+                        title: "",
+                        description:""
+                    },
+                    point3: {
+                        title: "",
+                        description:""
+                    },
                 },
             },
         },
+    },
     {
         title: "AWS and GCP",
         subtitle: "Data Engineer",

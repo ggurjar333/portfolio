@@ -26,51 +26,26 @@ export default function Blog() {
                     <div className="text-white">
                         {/*<p className='text-white mb-2'>{project.blog.title}, {project.blog.company}</p>*/}
                         <h1 className='text-3xl font-light'>
-                            I worked on {project.title} as a {project.subtitle}.
+                            {project.title} - {project.subtitle}
                         </h1>
                         <p>{project.description} </p>
                         <br/>
-                        <h1 className="text-2xl font-semibold">Challenges:</h1>
-                        <p>{project.blog.challenge.intro}</p>
+                        <h1 className="text-2xl font-semibold">{project.blog.challenge.intro}</h1>
                         <br/>
-                        <h2 className="text-xl">{project.blog.challenge.points.point1.title}:</h2>
-                        <p>{project.blog.challenge.points.point1.description}</p>
+                        <h2 className="text-xl">{project.blog.challenge.title}:</h2>
+                        <p>{project.blog.challenge.description}</p>
                         <br/>
-                        <p className="text-xl">{project.blog.challenge.points.point2.title}:</p>
-                        <p>{project.blog.challenge.points.point2.description}</p>
+                        <h1 className="text-2xl font-semibold">{project.blog.solution.intro}</h1>
                         <br/>
-                        <p className="text-xl">{project.blog.challenge.points.point3.title}:</p>
-                        <p>{project.blog.challenge.points.point3.description}</p>
+                        <p className="text-xl">{project.blog.solution.title}:</p>
+                        <p>{project.blog.solution.description}</p>
                         <br/>
-                        <h1 className="text-2xl font-semibold">Solution:</h1>
-                        <p>{project.blog.solution.intro}</p>
+                        <h1 className="text-2xl font-semibold">{project.blog.impact.intro}</h1>
+                        <p>{project.blog.impact.title}</p>
                         <br/>
-                        <p className="text-xl">{project.blog.solution.points.point1.title}:</p>
-                        <p>{project.blog.solution.points.point1.description}</p>
+                        {/* <p className="text-xl">{project.blog.impact.description}:</p> */}
+                        <p>{project.blog.impact.description}</p>
                         <br/>
-                        <p className="text-xl">{project.blog.solution.points.point2.title}:</p>
-                        <p>{project.blog.solution.points.point2.description}</p>
-                        <br/>
-                        <p className="text-xl">{project.blog.solution.points.point3.title}:</p>
-                        <p>{project.blog.solution.points.point3.description}</p>
-                        <br/>
-                        <p className="text-xl">{project.blog.solution.points.point4.title}:</p>
-                        <p>{project.blog.solution.points.point4.description}</p>
-                        <br/>
-                        <p className="text-xl">{project.blog.solution.points.point5.title}:</p>
-                        <p>{project.blog.solution.points.point5.description}</p>
-                        <br/>
-                        <h1 className="text-2xl font-semibold">Impact:</h1>
-                        <p>{project.blog.impact}</p>
-                        <br/>
-                        <p className="text-xl">{project.blog.details.points.point1.title}:</p>
-                        <p>{project.blog.details.points.point1.description}</p>
-                        <br/>
-                        <p className="text-xl">{project.blog.details.points.point2.title}:</p>
-                        <p>{project.blog.details.points.point2.description}</p>
-                        <br/>
-                        <p className="text-xl">{project.blog.details.points.point3.title}:</p>
-                        <p>{project.blog.details.points.point3.description}</p>
                     </div>
                 </div>
                 <br/>
