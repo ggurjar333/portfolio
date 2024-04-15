@@ -1,5 +1,5 @@
 // src/App.js
-import React from "react";
+import React, { useEffect } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -16,6 +16,16 @@ import Blog from './components/Blog';
 import Footer from "./components/Footer";
 
 export default function App() {
+    useEffect(() => {
+        const s1 = document.createElement("script");
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/661cf2ffa0c6737bd12bd81d/1hrghae9v';
+        s1.src = process.env.REACT_APP_TAWK_TO_SRC;
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        document.body.appendChild(s1);
+    }, []);
+
     return (
         <Router>
             <main className='text-gray-400 bg-gray-900 body-font'>
