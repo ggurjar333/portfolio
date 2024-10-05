@@ -1,6 +1,45 @@
 // src/data.js
 export const projects = [
     {
+        title: "Extracting Data from Microsoft SQL Server, Loading It into Amazon Redshift, and Orchestrating Transformations Using dbt Cloud and Dagster",
+        subtitle: "Meta",
+        description: "How do they fix problems?",
+        image:"https://en.m.wikipedia.org/wihttps://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svgki/File:Meta_Platforms_Inc._logo.svg",
+        link: "https://about.fb.com/news/2024/04/introducing-our-next-generation-infrastructure-for-ai/",
+        id: "meta-next-gen-infrastructure",
+        blog: {
+            title:"MTIA",
+            type:"Custom GPUs",
+            company: "Meta is running a passionate community dedicated to bringing AI enthusiasts together. ",
+            image: "https://about.fb.com/wp-content/uploads/2024/04/02_chips-architecture.gif?w=960&resize=960%2C836",
+            challenge: {
+                intro: "Meta is running a passionate community dedicated to bringing AI enthusiasts together.",
+                title: "MTIA Chips",
+                description:"Running workloads on GPUs were not better solution for META. " + 
+                "They are committed to providing high-quality models, organizing events, and fostering a sense of community among AI fans from all over the world. Meta has been putting a lot of heavy lifting work in scratching new AI algorithms and Llama models. They have a specific needs that requires efficiency at scale. As you already know whenever you " +
+                "feel low response time you eventually get frustrated and try to look for your solution. That's what the company did. "
+            },
+            solution: {
+                intro: "Please close this tab if you want to know how much Meta has invested in Silicon business these days.",
+                title: "AI Inference Accelerator",
+                description:"Meta recently came up with their cutting edge next generation infrastructure called 1st generation AI inference accelerator. " +
+                "Let's call it in-house problem solver. Meta has been providing variety of apps and technologies and solving problems across them. " +
+                "There would be no wonder if they say we wanted to learn more by building deep learning recommendation models. "
+            },
+            impact: {
+                intro: "Do they have a domain-specific knowledge? ",
+                title: "https://www.opencompute.org/documents/ocp-yosemite-v3-platform-design-specification-1v16-pdf",
+                description:"I won't go into the MTIA chip specifications but I can provide server source what these accelerators uses now. " +
+                "It seems like they just want to provide best AI experiences around the world. Multiple accelerators ran in parallel. Meta can go for custom fullstack development programs to slaughter those workload bugs. " +
+                "They would go for balanced nature of compute and memory bandwidth area. " +
+                "That's how I have been advising to my tribe. "+ 
+                "Overall, we want efficiency at relatively cheaper cost and get the most of our recommendation models. " +
+                "This is one step further to Gen AI. Controlling the whole stack for greater efficiency. " +
+                "PyTorch, Silicon, and recommendation models. That's what it takes to provide co-designed full stack solution. "       
+                },
+            },
+        },
+    {
         title: "Next Gen Infrastructure",
         subtitle: "Meta",
         description: "How do they fix problems?",
