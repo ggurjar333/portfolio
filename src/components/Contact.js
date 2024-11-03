@@ -53,13 +53,13 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 EMAIL
                             </h2>
-                            <a href="mailto:ggurjar333@gmail.com" className="text-indigo-400 leading-relaxed">
-                                ggurjar333@email.com
+                            <a href="mailto:dataengineergaurav@gmail.com" className="text-indigo-400 leading-relaxed">
+                                dataengineergaurav@gmail.com
                             </a>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="leading-relaxed">+91-760-026-3449</p>
+                            <p className="leading-relaxed">50-963-6801</p>
                         </div>
                     </div>
                 </div>
@@ -69,10 +69,10 @@ export default function Contact() {
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                     <input type="hidden" name="form-name" value="contact" />
                     <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-                        Ask for Quote?
+                        Share your details
                     </h2>
                     <p className="leading-relaxed mb-5">
-                        Create simple contracts. You don’t need an Upwork account. You'll have Escrow protection for both parties including disputes. Low to no fees for you.
+                        {/* Create simple contracts. You don’t need an Upwork account. You'll have Escrow protection for both parties including disputes. Low to no fees for you. */}
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-400">

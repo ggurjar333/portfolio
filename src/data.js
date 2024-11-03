@@ -382,26 +382,20 @@ export const projects = [
 
 export const skills = [
     {
-        title: "MBA in Data Sciences and Data Analytics",
+        title: "Al Zain Oasis Technology, UAE ( 1+ year ) WFO",
     },
     {
-        title: "Bachelors in Computer Applications",
+        title: "CannaSpyGlass, USA ( 2.5+ years ) -  WFH",
     },
     {
-        title: "Application Development"
+        title: "AI Squared Inc., USA ( 1+ year ) - WFH",
     },
     {
-        title: "Design Patterns"
+        title: "Casepoint LLC, USA ( 1+ year ) -  WFO",
     },
-    {
-        title: "Continuous Integration/Development"
-    },
-    {
-        title: "Data Engineering"
-    }
 ];
 
-export const testimonials = [
+export const feedbacks = [
     {
         name: "John Bonnett, CEO",
         image: "https://avatars.githubusercontent.com/u/141473057?v=4",

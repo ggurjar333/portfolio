@@ -3,16 +3,13 @@ import React, { useEffect } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
-// import Services from "./components/Services";
+import Feedbacks from "./components/Feedbacks";
 import './index.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Blog from './components/Blog';
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -34,15 +31,13 @@ export default function App() {
                         <>
                             <Navbar />
                             <About />
-                            <Projects />
-                            <Testimonials />
+                            <Feedbacks />
                             <Skills />
-                            {/*<Services></Services>*/}
                             <Contact />
                             <Footer />
                         </>
                     }/>
-                    <Route path='/blog/:id' element={<Blog />} />
+                    {/* <Route path='/blog/:id' element={<Blog />} /> */}
                 </Routes>
             </main>
         </Router>

@@ -11,7 +11,7 @@ export default function Skills() {
                 <div className="text-center mb-20">
                     <AcademicCapIcon className="w-10 inline-block mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-                         Education &amp; Passionate about
+                         Full Time &amp; Remote Experiences
                     </h1>
                     {/*<p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">*/}
                     {/*    My writings include designing and implementing robust data pipelines, ensuring seamless data flow and processing. I follow best coding practices to write clean, maintainable code that adheres to industry standards.*/}

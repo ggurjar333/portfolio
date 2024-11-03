@@ -11,14 +11,14 @@ export default function About() {
                         Gaurav is a Fullstack Data Engineer.
                     </h1>
                     <p className="mb-8 leading-relaxed ...">
-                        I build apps and data pipelines. I aim to reflect my capabilities, experiences, and achievements in the realm of full-stack data engineering.
+                        I build apps and data pipelines. Contributed to data products worth of $2M-$20M+ and Wrangled data size of ~10KB-20PB+. In addition, I have been recognized as specialized talent and awarded a Golden Visa by the Dubai Government in 2023.
                     </p>
                     <div className="flex justify-center ...">
-                        <a href="#contact" className="inline-flex text-white bg-green-500 border-0 py-2 px-3 focus:outline-none hover:bg-green-600 rounded text-lg ...">
-                            Work With Me
+                        <a href="https://wa.link/ahwwll" className="inline-flex text-white bg-green-500 border-0 py-2 px-3 focus:outline-none hover:bg-green-600 rounded text-lg ...">
+                            Whatsapp me
                         </a>
                         <a href="#projects" className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg ...">
-                            Recent Projects
+                            Feedbacks
                         </a>
                     </div>
                 </div>
